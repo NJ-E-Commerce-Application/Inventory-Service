@@ -53,5 +53,4 @@ public class InventoryService {
                 .map(inventory -> new InventoryResponse(inventory.getId(),inventory.getSkuCode(),inventory.getQuantity()))
                 .toList();
     }
-
 }
